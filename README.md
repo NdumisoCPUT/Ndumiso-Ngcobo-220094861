@@ -1,7 +1,4 @@
 # Ndumiso-Ngcobo-220094861
-A simple inventory tracking system designed for small businesses to monitor stock levels and sales.
-Basic Inventory Tracker - Documentation
-
 📌 Project Overview
 
 The Basic Inventory Tracker is a command-line Python application designed for small businesses to manage stock levels, track inventory changes, and ensure smooth operations.
