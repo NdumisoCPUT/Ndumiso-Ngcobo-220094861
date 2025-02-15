@@ -1,93 +1,69 @@
 # Ndumiso-Ngcobo-220094861
-📌 Project Overview
 
-The Basic Inventory Tracker is a command-line Python application designed for small businesses to manage stock levels, track inventory changes, and ensure smooth operations.
+Project Overview
+The Basic Inventory Tracker is a command-line Rust application designed for small businesses to manage stock levels and track inventory changes.
 
-📂 Project Structure
+Project structure
+Ndumiso-Ngcobo-220094861
+    ├── src/ (Source code directory)
+        ├── main.rs (Main Rust script)
+    ├── target/ (Compiled binary output directory)
+    ├── Cargo.toml (Rust project configuration file)
+    ├── Cargo.lock (Dependency lock file)
+    ├── README.md (Project documentation)
 
-📦 Ndumiso-Ngcobo-220094861
- ├── inventory_tracker.py    # Main Python script
- ├── inventory_data.json     # JSON file for data storage
- ├── README.md               # Project documentation
- ├── requirements.txt        # Dependencies (if any)
+Features
 
-🔧 Features
+Add new items to the inventory
 
-✅ Add new items to the inventory
+Update stock levels
 
-✅ Update stock levels
+Display inventory
 
-✅ Display current inventory
+Delete items
 
-✅ Delete items from inventory
+Save and load inventory data
 
-✅ Save and load inventory from a JSON file
+Setup Instructions
 
-🚀 Basic Setup Instructions
-
-1. Clone the Repository
+Clone the repository:
 
 git clone https://github.com/NdumisoCPUT/Ndumiso-Ngcobo-220094861.git
 cd Ndumiso-Ngcobo-220094861
 
-2. Install Python (If Not Installed)
+Install Rust if not installed:
 
-Ensure you have Python 3.x installed. If not, download and install it from Python Official Website.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-3. Run the Python Script
+Run the program:
 
-python inventory_tracker.py
+cargo run
 
-📜 Usage Guide
+Usage Guide
 
-When you run the script, you'll see a menu:
+Add an item: Enter the item name and quantity.
 
-📦 Inventory Management System
-1️⃣ Add Item
-2️⃣ Update Stock
-3️⃣ Display Inventory
-4️⃣ Delete Item
-5️⃣ Exit
+Display inventory: Shows all items and quantities.
 
-1. Add a New Item
+Exit: Closes the program.
 
-Enter the item name
+Version Control
 
-Specify the quantity
-
-Set the price per unit
-
-2. Update Stock
-
-Choose an existing item and enter the quantity to add/remove
-
-3. Display Inventory
-
-Shows all items, their quantity, and price
-
-4. Delete an Item
-
-Removes an item permanently from inventory
-
-5. Exit
-
-Saves inventory data and exits the program
-
-🔄 Version Control Process
-
-1. Track Changes with Git
+Track changes:
 
 git add .
-git commit -m "Added basic inventory tracking functionality"
+git commit -m "Updated inventory tracker in Rust"
 
-2. Push Code to GitHub
+Push to GitHub:
 
 git push origin main
 
-📌 Future Enhancements
+Future Enhancements
 
-🗃 Migrate storage from JSON to SQLite database
+Implement a database
 
-📊 Add a sales tracking feature
+Add sales tracking
 
-📱 Build a mobile-friendly interface (React Native/Flask API)
+Enable inventory persistence
+
+Develop a web or mobile interface
