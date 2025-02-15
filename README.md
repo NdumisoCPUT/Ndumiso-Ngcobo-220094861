@@ -5,6 +5,7 @@ The Basic Inventory Tracker is a command-line Rust application designed for smal
 
 Project structure
 Ndumiso-Ngcobo-220094861
+
     ├── src/ (Source code directory)
         ├── main.rs (Main Rust script)
     ├── target/ (Compiled binary output directory)
